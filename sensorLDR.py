@@ -33,7 +33,7 @@ while True:
 
     #  Habilidade: Tomada de Decisão baseada em dados
     #  A lógica de leitura do LDR é: quanto mais AUSÊNCIA DE LUZ
-    LIMIAR_ESCURO = 400
+    LIMIAR_ESCURO = 70
 
     if valor_luminosidade < LIMIAR_ESCURO:
         #  Se o valor for baixo (indica pouca luz), acende o LED
